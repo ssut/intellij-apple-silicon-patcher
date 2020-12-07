@@ -26,3 +26,5 @@ First of all you need to download [the lastest version of IntelliJ](https://www.
 3. Run `./make.bash`.
    - It will ask password several times during the work.
 4. Check IntelliJ works properly.
+
+![](https://i.imgur.com/fYvO0qu.png)
