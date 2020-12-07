@@ -28,3 +28,9 @@ First of all you need to download [the lastest version of IntelliJ](https://www.
 4. Check IntelliJ works properly.
 
 ![](https://i.imgur.com/fYvO0qu.png)
+
+### TIP: Scrolling performance
+
+If you feel like the scrolling is too slow you should simply turn off Antialiasing for Code Editor.
+
+![](https://i.imgur.com/gYE1jzA.png)
