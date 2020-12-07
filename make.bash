@@ -30,7 +30,7 @@ cd openjdk/apple/JavaNativeFoundation
 xcodebuild -target JavaNativeFoundation -configuration Release
 
 cd "$WORKDIR"
-wget https://cdn.azul.com/zulu/bin/zulu13.35.1017-ca-jdk13.0.5.1-macos_aarch64.zip
+curl -o zulu13.35.1017-ca-jdk13.0.5.1-macos_aarch64.zip https://cdn.azul.com/zulu/bin/zulu13.35.1017-ca-jdk13.0.5.1-macos_aarch64.zip
 unzip zulu13.35.1017-ca-jdk13.0.5.1-macos_aarch64.zip
 mv zulu13.35.1017-ca-jdk13.0.5.1-macos_aarch64/zulu-13.jdk .
 rm -rf zulu-13.jdk/lib/JavaNativeFoundation.framework
