@@ -19,11 +19,11 @@ I've created the following prebuilt binaries because compiling these files requi
 
 I'll assume you have already installed XCode command line tools.
 
-First of all you need to download [the lastest version of IntelliJ](https://www.jetbrains.com/idea/download/)
+First of all you need to download [the lastest version of IntelliJ](https://www.jetbrains.com/idea/download/).
 
 1. Clone this repository.
-2. Put "IntelliJ IDEA.app" to the cloned directory.
-3. Run `./make.bash`.
+2. Put "IntelliJ IDEA.app" to the cloned directory. The directory should look like: ![](https://i.imgur.com/2VuPtRk.png)
+3. Run `./make.bash "./IntelliJ Idea.app"`.
    - It will ask password several times during the work.
 4. Check IntelliJ works properly.
 
