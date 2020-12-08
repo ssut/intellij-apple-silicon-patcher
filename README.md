@@ -1,6 +1,12 @@
 # IntelliJ Apple Silicon Patch
 
+<center>
+
 ![](https://i.imgur.com/mCEuGqk.png)
+
+[![Check out the performance](https://img.youtube.com/vi/tRkloKnE5Hk/0.jpg)](https://www.youtube.com/watch?v=tRkloKnE5Hk)
+
+</center>
 
 IntelliJ IDEA is written in Java so it is a cross-platform IDE - meaning that you can use it on any platforms that Java works.
 
