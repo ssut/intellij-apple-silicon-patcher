@@ -43,7 +43,8 @@ cd intellij-community/native/fsNotifier/mac
 cp -f build/fsnotifier "$APPDIR/Contents/bin/fsnotifier"
 
 cd "$WORKDIR"
-cp -f ../idea "$APPDIR/Contents/MacOS/idea"
+TARGET_EXECUTABLE=$(find "$APPDIR/Contents/MacOS" -type f -perm -u+x)
+cp -f ../idea "$TARGET_EXECUTABLE"
 rm -rf "$APPDIR/Contents/jbr"
 cp -r "$WORKDIR/zulu-13.jdk" "$APPDIR/Contents/jbr"
 
